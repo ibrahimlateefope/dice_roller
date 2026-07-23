@@ -1,0 +1,83 @@
+/* CSS HEX */
+--platinum: #e7ecefff;
+--alabaster-grey: #dee3e7ff;
+--toasted-almond: #d98449ff;
+--blue-slate: #235d76ff;
+--charcoal-blue: #213c4fff;
+/* CSS HEX */
+--platinum: #e7ecefff;
+--cool-steel: #939fabff;
+--toasted-almond: #d98449ff;
+--blue-slate: #235d76ff;
+--charcoal-blue: #213c4fff;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Archivo Narrow", sans-serif;
+    text-align: center;
+    background: #e7ecef;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.dice-roller_card {
+    width: 90%;
+    max-width: 560px;
+}
+.dice-roller_header {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #156074;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 24px;
+    background: #dee3e7;
+    box-shadow: 1px 1px 15px #fff;
+    border-radius: 12px;
+}
+.input-group {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+}
+label {
+    color: #16314c;
+    font: inherit;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.roll-dice {
+    padding: 10px 15px;
+    background: #ff7216;
+    color: #fff7e0;
+    border-radius: 12px;
+    border: none;
+    font: inherit;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+input,
+p {
+    font: inherit;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.result-box {
+    border-radius: 15px;
+    background: #94a0ac;
+    color: #e7ecef;
+    padding: 10px 14px;
+    margin: 10px;
+}
